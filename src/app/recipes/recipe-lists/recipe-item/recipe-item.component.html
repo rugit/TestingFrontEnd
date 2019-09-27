@@ -1,0 +1,10 @@
+<div class="card flex-row-reverse flex-wrap" >
+	<div class="card-header ">
+		<a href="#"> <img [src]="recipe.imagePath" class= "imag-responsive" alt="{{recipe.name}}" style="max-width: 100px"alt="" 
+			(click)="onSelected()"> </a>
+	</div>
+	<div class="card-body">
+    	<h4 class="card-title">{{ recipe.name }}</h4>
+    	<p class="card-text">{{ recipe.description }}</p>
+	</div>
+</div>
