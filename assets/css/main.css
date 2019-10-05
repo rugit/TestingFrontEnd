@@ -3946,7 +3946,7 @@ input, select, textarea {
 		}
 
 /* Footer */
-
+	
 	#footer {
 		color: #717981;
 		display: -moz-flex;
@@ -3963,8 +3963,18 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+		#footer #contactForm {
+			/* align-content: center; */
+			width: 50%;
+			margin: 0 auto;
+		}
+
+		#footer #formHeading {
+			text-transform: uppercase;
+		}
+
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #6e7e8d;
 		}
 
 		#footer a {
