@@ -4730,6 +4730,16 @@ input, select, textarea {
 		transform: rotateY(180deg);
 	  }
 	  
+	  .flip-card-inner.flipped{
+		transform: rotateY(180deg);
+	  }
+
+
+	  /* :checked + .flip-card-inner {
+		transform: rotateY(180deg);
+		-webkit-transform: rotateX(180deg);
+	} */
+
 	  /* Position the front and back side */
 	  .flip-card-front, .flip-card-back {
 		position: absolute;
@@ -4751,21 +4761,36 @@ input, select, textarea {
 		transform: rotateY(180deg);
 	  }
 
+	  .rotate{
+		display: none;
+
+	}
+
 	  @media screen and (max-width: 600px){
 		.flip-card-inner img{
-			height: 206px;
-			width: 336px;
+			height: 150px;
+			width: 300px;
 			margin-left: auto;
 		  }
 
 		  .flip-card {
 			background-color: transparent;
-			width: 336px;
-			height: 206px;
+			width: 300px;
+			height: 150px;
 			border: 1px solid white;
 			perspective: 1000px; /* Remove this if you don't want the 3D effect */
 			
 		  }
+		  .rotate{
+			  display: inline;
+			  font-style: italic;
+			  font-size: small;
+			  font-weight: lighter;
+			  color: #909498;
+			  
+		  }
+
+		
 		  
 		  
 

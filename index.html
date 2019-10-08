@@ -37,6 +37,23 @@
 
 		}
 		</style>
+		<script>
+		
+		function flip1() {
+    		$('.flip-card-inner#flip_codenovus').toggleClass('flipped');
+		}
+		function flip2() {
+    		$('.flip-card-inner#flip_consilium').toggleClass('flipped');
+		}
+		function flip3() {
+    		$('.flip-card-inner#flip_technohunt').toggleClass('flipped');
+		}
+		function flip4() {
+    		$('.flip-card-inner#flip_web').toggleClass('flipped');
+		}
+
+
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -98,8 +115,8 @@
 											<br>
 												<div class="flip-card ">
 														
-														<div class="flip-card-inner">
-															<div class="flip-card-front">
+														<div class="flip-card-inner" id="flip_codenovus">
+															<div class="flip-card-front" >
 															<img src="images/codenovus fhd.png" alt="Avatar" >
 															</div>
 															<div class="flip-card-back">
@@ -110,7 +127,10 @@
 														</div>
 													</div>
 			
-												<p>The Flagship Coding Competition</p>
+												<p>The Flagship Coding Competition <label onclick="flip1()" class="rotate text-right">click me</label></p>
+												
+												
+
 
 									</div>
 									<div class="col-xs-6 text-center">
@@ -123,7 +143,7 @@
 			
 											<div class="flip-card">
 													
-													<div class="flip-card-inner">
+													<div class="flip-card-inner" id="flip_consilium">
 														<div class="flip-card-front">
 														<img src="images/consilium fhd.png" alt="Avatar" >
 														</div>
@@ -135,7 +155,7 @@
 													</div>
 												</div>
 		
-											<p>The annual Tech Seminar.</p>
+											<p>The annual Tech Seminar. <label onclick="flip2()" class="rotate text-right">click me</label></p>
 									</div>
 								</div>
 
@@ -151,7 +171,7 @@
 				
 												<div class="flip-card">
 														
-														<div class="flip-card-inner">
+														<div class="flip-card-inner" id="flip_technohunt">
 															<div class="flip-card-front">
 															<img src="images/technohunt fhd.png" alt="Avatar" >
 															</div>
@@ -163,7 +183,7 @@
 														</div>
 												</div>
 			
-												<p>Treasure hunt event.</p>
+												<p>Treasure hunt event.<label onclick="flip3()" class="rotate text-right">click me</label></p>
 	
 										</div>
 										<div class="col-xs-6 text-center">
@@ -174,7 +194,7 @@
 												<br>
 												<div class="flip-card ">
 													
-													<div class="flip-card-inner">
+													<div class="flip-card-inner" id="flip_web">
 														<div class="flip-card-front">
 														<img src="images/web-o-design fhd.png" alt="Avatar" >
 														</div>
@@ -186,7 +206,7 @@
 													</div>
 												</div>
 
-												<p>Front End Web Dev Competition.</p>
+												<p>Front End Web Dev Competition.<label onclick="flip4()" class="rotate text-right">click me</label></p>
 										</div>
 									</div>
 
