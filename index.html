@@ -34,11 +34,10 @@
 			#magic{
 				display:none;
 			}
-
 		}
 		</style>
+
 		<script>
-		
 		function flip1() {
     		$('.flip-card-inner#flip_codenovus').toggleClass('flipped');
 		}
@@ -51,10 +50,10 @@
 		function flip4() {
     		$('.flip-card-inner#flip_web').toggleClass('flipped');
 		}
-
-
 		</script>
 	</head>
+
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -77,11 +76,11 @@
 				<!-- Nav -->
 				<nav id="nav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 					<div class="container-fluid">
-							<a class="navbar-brand" href="#"> &nbsp GLUG</a>
-							<ul class="nav navbar-nav navbar-right">
-								<!-- <li class="active"><a href="#main"></a></li> -->
-								<li><a href="#events" class="active">Events</a></li>
-								<li><a href="#contactUs">Contact Us</a></li>
+							<span class="navbar-text">GLUG</span>
+							<ul class="nav navbar-nav">
+								<li class="nav-item"><a class="nav-link" href="#main">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
 							</ul>
 					</div>
 				</nav>
@@ -93,10 +92,16 @@
 							<article class="post featured">
 								<header class="major">
 									<!-- <span class="date">April 25, 2017</span> -->
-									<h2><a href="#">TECHNOVAS</a></h2>
-									<p>GO BEYOND IMAGINATION</p>
+									<h2><a href="#">Technovas</a></h2>
+									<p>Go beyond imagination</p>
 								</header>
-								<a href="#" class="image main"><img src="images/main.jpeg" alt="" /></a>
+
+								<!-- comment me out when you decide to put the picture -->
+								<div>
+									<h4>Image here, down for testing purpose</h4>
+								</div>
+								
+								<!-- <a href="#" class="image main"><img src="images/main.jpeg" alt="" /></a> -->
 								<ul class="actions special">
 									<li><a href="#" class="button large">More</a></li>
 								</ul>
@@ -105,7 +110,7 @@
 
 							<!-- New post system using bootstrap grid system -->
 
-							<div class="container-fluid">
+							<div id="events" class="container-fluid">
 								<div class="row justify-content-around">
 									<div class="col-xs-6 text-center">
 										
@@ -131,10 +136,8 @@
 			
 												<p>The Flagship Coding Competition <label onclick="flip1()" class="rotate text-right">click me</label></p>
 												
-												
-
-
 									</div>
+
 									<div class="col-xs-6 text-center">
 											<header>
 													<span class="date">02 Nov 2019</span>
@@ -188,6 +191,7 @@
 												<p>Treasure hunt event.<label onclick="flip3()" class="rotate text-right">click me</label></p>
 	
 										</div>
+
 										<div class="col-xs-6 text-center">
 												<header>
 														<span class="date">02 Nov 2019</span>
@@ -218,18 +222,6 @@
 
 						<!-- Footer -->
 							<footer>
-								<!-- <div class="pagination">
-									<a href="#" class="previous">Prev</a>
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div> -->
-
 								<section id="contactUs" class="mb-4">
 
 										<!--Section heading-->
@@ -272,7 +264,6 @@
 														<div class="col-md-12">
 															<div class="md-form mb-0">
 																<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
-																<!-- <label for="subject" class="">Subject</label> -->
 															</div>
 														</div>
 													</div>
@@ -286,7 +277,6 @@
 									
 															<div class="md-form">
 																<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your message"></textarea>
-																<!-- <label for="message">Your message</label> -->
 															</div>
 									
 														</div>
@@ -305,19 +295,19 @@
 											<!--Grid column-->
 											<div class="col-md-3 text-center">
 												<ul class="list-unstyled mb-0">
-													<li><i class="fas fa-map-marker-alt fa-2x"></i><br>
-														<small>GLUG, Jorhat Engineering College</small>
+													<li><i class="fas fa-map-marked-alt fa-2x"></i><br>
+														<small>Jorhat Engineering College, Jorhat</small>
 													</li>
 
 													<li><i class="fas fa-envelope mt-4 fa-2x"></i><br>
 														<small>jecglug@gmail.com </small>
 													</li>
 													<br>
-													<li> <h2><i class="fab fa-facebook-f"></i></h2>
+													<li> <a href="www.instagram.com/jecglug"><h2><i class="fab fa-facebook-f"></i></h2></a>
 														<small>JEC GLUG</small>
 													</li>
 													<br>
-													<li><h2><i class="fab fa-instagram"></i></h2>
+													<li><a href="www.facebook.com/jec.glug"><h2><i class="fab fa-instagram"></i></h2></a>
 														<small>jecglug</small>
 													</li>
 									
@@ -349,7 +339,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; JEC GLUG</li></ul>
+						<ul><li>Made with love by JEC GLUG</li></ul>
 					</div>
 
 			</div>
