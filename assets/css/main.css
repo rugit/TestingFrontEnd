@@ -3285,6 +3285,24 @@ input, select, textarea {
 
 		}
 
+
+
+		/* @media screen and (max-width:600px){
+			#intro {
+				display: flex;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+			}
+			#header {
+				display: flex;
+			}
+			.vheader{
+				display: none;
+			}
+		} */
+
 /* Intro */
 
 	#intro {
@@ -3297,7 +3315,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: none;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -3505,7 +3523,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: none;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -4799,3 +4817,82 @@ input, select, textarea {
 		  
 
 	}
+
+
+
+
+
+.vheader {
+	position: relative;
+	background-color: black;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .vheader video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .vheader .container {
+	position: relative;
+	z-index: 1;
+  }
+  
+  .vheader .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.3;
+	z-index: 2;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+	.vheader {
+	  background: url('../../../assets/glitchLogo_2.mp4') black no-repeat center center scroll;
+	}
+	.vheader video {
+	  display: none;
+	}
+  }
+  @media screen and (max-width: 600px){
+	.vheader{
+		display: none
+	}
+
+}
+
+
+@media screen and (max-width:600px){
+	#intro {
+		display: flex;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+	#header {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+	.vheader{
+		display: none;
+	}
+}
