@@ -1,23 +1,23 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+	@import url(fontawesome-all.min.css);
+	@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
+	/*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+	*/
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object,
+	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, a, abbr, acronym, address, big, cite,
+	code, del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var, b,
+	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+	form, label, legend, table, caption, tbody,
+	tfoot, thead, tr, th, td, article, aside,
+	canvas, details, embed, figure, figcaption,
+	footer, header, hgroup, menu, nav, output, ruby,
+	section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -25,58 +25,58 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+	body {
 	line-height: 1;
-}
+	}
 
-.navbar-brand {
+	.navbar-brand {
 	cursor: default;
-}
+	}
 
-ol, ul {
+	ol, ul {
 	list-style: none;
-}
+	}
 
-blockquote, q {
+	blockquote, q {
 	quotes: none;
-}
+	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
 
-table {
+	table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+	}
 
-body {
+	body {
 	-webkit-text-size-adjust: none;
-}
+	}
 
-mark {
+	mark {
 	background-color: transparent;
 	color: inherit;
-}
+	}
 
-input::-moz-focus-inner {
+	input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
-}
+	}
 
-input, select, textarea {
+	input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+	}
 
-/* Basic */
+	/* Basic */
 
 	@-ms-viewport {
 		width: device-width;
@@ -117,7 +117,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
+	/* Type */
 
 	html {
 		font-size: 16pt;
@@ -326,7 +326,7 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
-/* Row */
+	/* Row */
 
 	.row {
 		display: flex;
@@ -2039,7 +2039,7 @@ input, select, textarea {
 
 		}
 
-/* Box */
+	/* Box */
 
 	.box {
 		border: solid 2px;
@@ -2063,7 +2063,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Button */
+	/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2241,7 +2241,7 @@ input, select, textarea {
 				background-color: #18bfef;
 			}
 
-/* Form */
+	/* Form */
 
 	form {
 		margin: 0 0 2rem 0;
@@ -2553,7 +2553,7 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
-/* Icon */
+	/* Icon */
 
 	.icon {
 		text-decoration: none;
@@ -2590,7 +2590,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+	/* Image */
 
 	.image {
 		border: 0;
@@ -2680,7 +2680,7 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
-/* Actions */
+	/* Actions */
 
 	ul.actions {
 		display: -moz-flex;
@@ -2802,7 +2802,7 @@ input, select, textarea {
 
 		}
 
-/* Icons */
+	/* Icons */
 
 	ul.icons {
 		cursor: default;
@@ -2838,7 +2838,7 @@ input, select, textarea {
 			font-size: 1rem;
 		}
 
-/* List */
+	/* List */
 
 	ol {
 		list-style: decimal;
@@ -2905,7 +2905,7 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #18bfef;
 	}
 
-/* Section/Article */
+	/* Section/Article */
 
 	section.special, article.special {
 		text-align: center;
@@ -3004,7 +3004,7 @@ input, select, textarea {
 		border-top-color: #eeeeee;
 	}
 
-/* Table */
+	/* Table */
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -3103,7 +3103,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Pagination */
+	/* Pagination */
 
 	.pagination {
 		display: -moz-inline-flex;
@@ -3219,7 +3219,7 @@ input, select, textarea {
 		color: #eeeeee;
 	}
 
-/* Wrapper */
+	/* Wrapper */
 
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
@@ -3305,7 +3305,7 @@ input, select, textarea {
 			}
 		} */
 
-/* Intro */
+	/* Intro */
 
 	#intro {
 		color: #ffffff;
@@ -3514,7 +3514,7 @@ input, select, textarea {
 
 		}
 
-/* Header */
+	/* Header */
 
 	#header {
 		color: #ffffff;
@@ -3627,7 +3627,7 @@ input, select, textarea {
 
 		}
 
-/* Nav */
+	/* Nav */
 
 	#nav {
 		color: #ffffff;
@@ -3777,7 +3777,7 @@ input, select, textarea {
 
 		}
 
-/* Main */
+	/* Main */
 
 	#main {
 		background-color: #ffffff;
@@ -3969,8 +3969,8 @@ input, select, textarea {
 
 		}
 
-/* Footer */
-	
+	/* Footer */
+
 	#footer {
 		color: #717981;
 		display: -moz-flex;
@@ -4516,7 +4516,7 @@ input, select, textarea {
 
 		}
 
-/* Nav Panel */
+	/* Nav Panel */
 
 	#navPanelToggle {
 		text-decoration: none;
@@ -4725,98 +4725,121 @@ input, select, textarea {
 
 	/* flip card */
 
-	
+
 	.flip-card {
 		background-color: transparent;
 		width: 605px;
 		height: 340px;
 		border: 1px solid #f1f1f1;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
-	  }
-	  
-	  /* This container is needed to position the front and back side */
-	  .flip-card-inner {
+		}
+		
+		/* This container is needed to position the front and back side */
+		.flip-card-inner {
 		position: relative;
 		width: 100%;
 		height: 100%;
 		text-align: center;
 		transition: transform 0.8s;
 		transform-style: preserve-3d;
-	  }
+		}
 
-	  .flip-card-inner img{
+		.flip-card-inner img{
 		height: 336px;
 		width: 600px;
-	  }
-	  
-	  /* Do an horizontal flip when you move the mouse over the flip box container */
-	  .flip-card:hover .flip-card-inner {
+		}
+		
+		/* Do an horizontal flip when you move the mouse over the flip box container */
+		.flip-card:hover .flip-card-inner {
 		transform: rotateY(180deg);
-	  }
-	  
-	  .flip-card-inner.flipped{
+		}
+		
+		.flip-card-inner.flipped{
 		transform: rotateY(180deg);
-	  }
+		}
 
 
-	  /* :checked + .flip-card-inner {
+		/* :checked + .flip-card-inner {
 		transform: rotateY(180deg);
 		-webkit-transform: rotateX(180deg);
 	} */
 
-	  /* Position the front and back side */
-	  .flip-card-front, .flip-card-back {
+		/* Position the front and back side */
+		.flip-card-front, .flip-card-back {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		backface-visibility: hidden;
-	  }
-	  
-	  /* Style the front side (fallback if image is missing) */
-	  .flip-card-front {
+		}
+		
+		/* Style the front side (fallback if image is missing) */
+		.flip-card-front {
 		background-color:white;
 		color: black;
-	  }
-	  
-	  /* Style the back side */
-	  .flip-card-back {
+		}
+		
+		/* Style the back side */
+		.flip-card-back {
 		background-color: #f1f1f1;
 		color: black;
 		transform: rotateY(180deg);
-	  }
+		}
 
-	  .rotate{
+		.rotate{
 		display: none;
 
 	}
 
-	  @media screen and (max-width: 600px){
-		.flip-card-inner img{
-			height: 150px;
-			width: 300px;
-			margin-left: auto;
-		  }
 
-		  .flip-card {
+	@media screen and (max-width: 1500px){
+		.flip-card-inner img{
+			height: 250px;
+			width: 380px;
+			margin-left: auto;
+			}
+	
+			.flip-card {
 			background-color: transparent;
-			width: 300px;
-			height: 150px;
+			width: 380px;
+			height: 250px;
 			border: 1px solid white;
 			perspective: 1000px; /* Remove this if you don't want the 3D effect */
 			
-		  }
-		  .rotate{
-			  display: inline;
-			  font-style: italic;
-			  font-size: small;
-			  font-weight: lighter;
-			  color: #909498;
-			  
-		  }
+			}
+			.rotate{
+				display: inline;
+				font-style: italic;
+				font-size: small;
+				font-weight: lighter;
+				color: #909498;
+				
+			}		
+	
+		}
 
+	@media screen and (max-width: 767px){
+	.flip-card-inner img{
+		height: 150px;
+		width: 280px;
+		margin-left: auto;
+		}
+
+		.flip-card {
+		background-color: transparent;
+		width: 280px;
+		height: 150px;
+		border: 1px solid white;
+		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 		
-		  
-		  
+		}
+		.rotate{
+			display: inline;
+			font-style: italic;
+			font-size: small;
+			font-weight: lighter;
+			color: #909498;
+			
+		}		
 
 	}
 
@@ -4824,16 +4847,16 @@ input, select, textarea {
 
 
 
-.vheader {
+	.vheader {
 	position: relative;
 	background-color: black;
 	height: 75vh;
 	min-height: 25rem;
 	width: 100%;
 	overflow: hidden;
-  }
-  
-  .vheader video {
+	}
+
+	.vheader video {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -4846,14 +4869,14 @@ input, select, textarea {
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-  }
-  
-  .vheader .container {
+	}
+
+	.vheader .container {
 	position: relative;
 	z-index: 1;
-  }
-  
-  .vheader .overlay {
+	}
+
+	.vheader .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -4862,25 +4885,31 @@ input, select, textarea {
 	background-color: black;
 	opacity: 0.3;
 	z-index: 2;
-  }
-  
-  @media (pointer: coarse) and (hover: none) {
+	}
+
+	@media (pointer: coarse) and (hover: none) {
 	.vheader {
-	  background: url('../../../assets/glitchLogo_2.mp4') black no-repeat center center scroll;
+		background: url('../../../assets/glitchLogo_2.mp4') black no-repeat center center scroll;
 	}
 	.vheader video {
-	  display: none;
+		display: none;
 	}
-  }
-  @media screen and (max-width: 600px){
+	}
+	@media screen and (max-width: 600px){
 	.vheader{
 		display: none
 	}
 
-}
+	}
 
 
-@media screen and (max-width:600px){
+	/* .mb-4{
+	background-color:black;
+	color:orange;
+	} */
+
+
+	@media screen and (max-width:767px){
 	#intro {
 		display: flex;
 		display: -moz-flex;
@@ -4897,4 +4926,4 @@ input, select, textarea {
 	.vheader{
 		display: none;
 	}
-}
+	}
