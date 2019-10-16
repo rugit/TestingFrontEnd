@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Technovas - GLUG</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
+		<!-- <link href="css/rotating-card.css" rel="stylesheet" /> -->
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+		
+		<style>
+			.flexing{
+				border-right: solid 2px #e2e2e2;
+			}
+			.widter{
+				width: 25%;
+			}
+		@media screen and (max-width: 600px){
+			.section-mobile{
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.flexing{
+				width: 100%;
+			}
+			#footer #contactForm{
+				width: 100%;
+			}
+			#magic{
+				display:none;
+			}
+		}
+		</style>
+
+		<script>
+		function flip1() {
+    		$('.flip-card-inner#flip_codenovus').toggleClass('flipped');
+		}
+		function flip2() {
+    		$('.flip-card-inner#flip_consilium').toggleClass('flipped');
+		}
+		function flip3() {
+    		$('.flip-card-inner#flip_technohunt').toggleClass('flipped');
+		}
+		function flip4() {
+    		$('.flip-card-inner#flip_web').toggleClass('flipped');
+		}
+		</script>
+	</head>
+
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+					<div class="vheader">
+							<div class="overlay"></div>
+							 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+							  <source src="./images/glitchLogo_2.mp4" type="video/mp4">
+							</video> 
+						</div>	
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>JEC GLUG</h1>
+						<p>--club description here--</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">GLUG</a>
+					</header>
+
+
+
+				
+
+				<!-- Nav -->
+				<nav id="nav" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+					<div class="container-fluid">
+							<span class="navbar-text navbar-brand">GLUG</span>
+							<ul class="nav navbar-nav">
+								<li class="nav-item"><a class="nav-link" href="#main">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+							</ul>
+					</div>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Techfest introduction -->
+							<article class="post featured">
+								<header class="major">
+									<!-- <span class="date">April 25, 2017</span> -->
+									<h2><a href="#">Technovas</a></h2>
+									<p>Go beyond imagination</p>
+								</header>
+
+								<!-- comment me out when you decide to put the picture -->
+								<div>
+									<h4>Image here, down for testing purpose</h4>
+								</div>
+								
+								<!-- <a href="#" class="image main"><img src="images/main.jpeg" alt="" /></a> -->
+								<ul class="actions special">
+									<li><a href="#" class="button large">More</a></li>
+								</ul>
+							</article>
+
+
+							<!-- New post system using bootstrap grid system -->
+
+							<div id="events" class="container-fluid">
+								<div class="row justify-content-around">
+									<div class="col-xs-6 text-center">
+										
+											<header>
+													<span class="date">03 Nov 2019</span>
+													<h2><a href="#">Codenovus</a></h2>
+											</header>
+												<!-- <a href="#" class="image fit"><img src="images/codenovus fhd.png" alt="" /></a> -->
+											<br>
+												<div class="flip-card ">
+														
+														<div class="flip-card-inner" id="flip_codenovus">
+															<div class="flip-card-front" >
+															<img src="images/codenovus fhd.png" alt="Avatar" >
+															</div>
+															<div class="flip-card-back">
+															<h4>Welcome</h4>
+															<p>Breif info about the event</p>
+															<p>button to register using g form</p>
+															</div>
+														</div>
+													</div>
+			
+												<p class="text-center">The Flagship Coding Competition <br>
+												<label onclick="flip1()" class="rotate text-right">More</label></p>
+										
+												<hr class="style14">
+									</div>
+
+									
+
+									<div class="col-xs-6 text-center">
+											<header>
+													<span class="date">02 Nov 2019</span>
+													<h2><a href="#">Consilium</a></h2>
+											</header>
+											<br>
+												<!-- <a href="#" class="image fit"><img src="images/consilium fhd.png" alt="" /></a> -->
+			
+											<div class="flip-card">
+													
+													<div class="flip-card-inner" id="flip_consilium">
+														<div class="flip-card-front">
+														<img src="images/consilium fhd.png" alt="Avatar" >
+														</div>
+														<div class="flip-card-back">
+														<h4>Welcome</h4>
+														<p>Breif info about the event</p>
+														<p>button to register using g form</p>
+														</div>
+													</div>
+												</div>
+		
+											<p class="text-center">The annual Tech Seminar. <br>
+											<label onclick="flip2()" class="rotate text-right">More</label></p>
+
+											<hr class="style14">
+									</div>
+								</div>
+
+								<div class="row justify-content-around">
+										<div class="col-xs-6 text-center">
+											
+												<header>
+														<span class="date">03 Nov 2019</span>
+														<h2><a href="#">Technohunt</a></h2>
+												</header>
+												<br>
+													<!-- <a href="#" class="image fit"><img src="images/technohunt fhd.png" alt="" /></a> -->
+				
+												<div class="flip-card">
+														
+														<div class="flip-card-inner" id="flip_technohunt">
+															<div class="flip-card-front">
+															<img src="images/technohunt fhd.png" alt="Avatar" >
+															</div>
+															<div class="flip-card-back">
+															<h4>Welcome</h4>
+															<p>Breif info about the event</p>
+															<p>button to register using g form</p>
+															</div>
+														</div>
+												</div>
+			
+												<p class="text-center">Treasure hunt event. <br> 
+												<label onclick="flip3()" class="rotate text-right">More</label></p>
+
+												<hr class="style14">
+	
+										</div>
+
+										<div class="col-xs-6 text-center">
+												<header>
+														<span class="date">02 Nov 2019</span>
+														<h2><a href="#">Web-O-design</a></h2>
+												</header>
+												<br>
+												<div class="flip-card ">
+													
+													<div class="flip-card-inner" id="flip_web">
+														<div class="flip-card-front">
+														<img src="images/web-o-design fhd.png" alt="Avatar" >
+														</div>
+														<div class="flip-card-back">
+														<h4>Welcome</h4>
+														<p>Breif info about the event</p>
+														<p>button to register using g form</p>
+														</div>
+													</div>
+												</div>
+												<p class="text-center">Front End Web Dev Competition. <br>
+												<label onclick="flip4()" class="rotate text-right">More</label></p>
+
+									
+										</div>
+									</div>
+
+							</div>
+
+						
+
+						<!-- Footer -->
+							<footer>
+								<section id="contactUs" class="mb-4">
+
+										<!--Section heading-->
+										<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+										<!--Section description-->
+										<p class="text-center w-responsive mx-auto mb-5">Have any Questions? Feel free to contact us and we will reach back to you ASAP</p>
+									
+										<div class="row">
+									
+											<!--Grid column-->
+											<div class="col-md-9 mb-md-0 mb-5">
+												<form id="contact-form" name="contact-form" action="http://localhost:3000/feedback" method="POST">
+									
+													<!--Grid row-->
+													<div class="row">
+									
+														<!--Grid column-->
+														<div class="col-md-6">
+															<div class="md-form mb-0">
+																<input type="text" id="name" name="name" class="form-control" placeholder="Name">
+																<!-- <label for="name" class="">Your name</label> -->
+															</div>
+														</div>
+														<!--Grid column-->
+									
+														<!--Grid column-->
+														<div class="col-md-6">
+															<div class="md-form mb-0">
+																<input type="text" id="email" name="email" class="form-control" placeholder="Email">
+																<!-- <label for="email" class="">Your email</label> -->
+															</div>
+														</div>
+														<!--Grid column-->
+									
+													</div>
+													<!--Grid row-->
+									
+													<!--Grid row-->
+													<div class="row">
+														<div class="col-md-12">
+															<div class="md-form mb-0">
+																<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+															</div>
+														</div>
+													</div>
+													<!--Grid row-->
+									
+													<!--Grid row-->
+													<div class="row">
+									
+														<!--Grid column-->
+														<div class="col-md-12">
+									
+															<div class="md-form">
+																<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your message"></textarea>
+															</div>
+									
+														</div>
+													</div>
+													<!--Grid row-->
+
+													<div class="text-center text-md-left">
+														<button class="btn btn-primary" type="submit" value="Submit" form="contact-form">Send</button>
+													</div>
+									
+												</form>
+									
+												
+												<div class="status"></div>
+											</div>
+											<!--Grid column-->
+									
+											<!--Grid column-->
+											<div class="col-md-3 text-center">
+												<ul class="list-unstyled mb-0">
+													<li><i class="fas fa-map-marked-alt fa-2x"></i><br>
+														<small>Jorhat Engineering College, Jorhat</small>
+													</li>
+
+													<li><i class="fas fa-envelope mt-4 fa-2x"></i><br>
+														<small>jecglug@gmail.com </small>
+													</li>
+													<br>
+													<li> <a href="https://www.instagram.com/jecglug"><h2><i class="fab fa-facebook-f"></i></h2></a>
+														<small>JEC GLUG</small>
+													</li>
+													<br>
+													<li><a href="https://www.facebook.com/jec.glug"><h2><i class="fab fa-instagram"></i></h2></a>
+														<small>jecglug</small>
+													</li>
+									
+													
+												</ul>
+											</div>
+											<!--Grid column-->
+									
+										</div>
+									
+									</section>
+									<!--Section: Contact v.2-->
+							</footer>
+
+
+							
+
+					</div>
+					
+				<!-- Footer -->
+					<!-- <footer id="footer" >
+						
+
+						
+
+						
+						
+				</footer> -->
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>Made with <span style="color: #e25555;">&hearts;</span> by JEC GLUG</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
