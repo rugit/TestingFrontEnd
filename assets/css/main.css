@@ -4888,37 +4888,23 @@
 	z-index: 2;
 	}
 
-	@media (pointer: coarse) and (hover: none) {
-	.vheader {
-		background: url('../../../assets/glitchLogo_2.mp4') black no-repeat center center scroll;
-	}
-	.vheader video {
-		display: none;
-	}
-	}
-	@media screen and (max-width: 600px){
-	.vheader{
-		display: none
-	}
-
-	}
 
 
-	/* .mb-4{
-	background-color:black;
-	color:orange;
-	} */
 
 
-	hr.style14 { 
-		border: 0; 
-		height: 1px; 
-		display: none;
-		background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-		background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-		background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-		background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-	  }
+	@media (min-aspect-ratio:16/9){
+		#videobg{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	@media (max-aspect-ratio:16/9){
+		#videobg{
+			width: auto;
+			height: 100%;
+		}
+	}
 
 
 	@media screen and (max-width:767px){
@@ -4968,5 +4954,15 @@
 		}
 		
 	}
+
+	hr.style14 { 
+		border: 0; 
+		height: 1px; 
+		display: none;
+		background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+	  }
 
 	
