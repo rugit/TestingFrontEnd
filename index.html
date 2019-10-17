@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 		
-				<style>
+		<style>
 			.flexing{
 				border-right: solid 2px #e2e2e2;
 			}
@@ -62,7 +62,7 @@
 
 					<div class="vheader">
 							<div class="overlay"></div>
-							 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+							 <video id="videobg" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 							  <source src="./images/glitchLogo_2.mp4" type="video/mp4">
 							</video> 
 						</div>	
@@ -112,14 +112,6 @@
 									<h4 class="font-italic">Go Beyond Imagination</h4>
 									
 								</header>
-
-								<!-- comment me out when you decide to put the picture -->
-								<!-- <div>
-									<h4>Image here, down for testing purpose</h4>
-								</div> -->
-
-								
-								
 								<!-- <a href="#" class="image main"><img src="images/main.jpeg" alt="" /></a> -->
 								<ul class="actions special">
 								
@@ -132,6 +124,11 @@
 
 							<div id="events" class="container-fluid">
 								<div class="row justify-content-around">
+
+
+									<!-- ---------
+									CODNOVUS
+									--------- -->
 									<div class="col-xs-6 text-center">
 										
 											<header>
@@ -172,7 +169,9 @@
 												<hr class="style14">
 									</div>
 
-									
+									<!-- ---------
+									CONSILIUM
+									--------- -->
 
 									<div class="col-xs-6 text-center">
 											<header>
@@ -218,109 +217,112 @@
 								</div>
 
 								<div class="row justify-content-around">
-										<div class="col-xs-6 text-center">
-											
-												<header> <br>
-														<span class="date font-weight-bold">03 Nov 2019</span>
-														<h2 class = "event-head">Technohunt</h2>
-												</header>
-												<br>
-													<!-- <a href="#" class="image fit"><img src="images/technohunt fhd.png" alt="" /></a> -->
-				
-												<div class="flip-card">
-														
-														<div class="flip-card-inner" id="flip_technohunt">
-															<div class="flip-card-front">
-															<img src="images/technohunt fhd.png" alt="Avatar" >
-															</div>
-															<div class="flip-card-back">
-																<!-- <h4>Welcome</h4>
-																<p>Breif info about the event</p>
-																<p>button to register using g form</p> -->
 
-
-																<div class="card h-100" style=" height: 18rem;" >
-																	<div class="card-body card-body flex-fil">
-																		<h5 class="card-title">Welcome</h5>
-																		<h6 class="card-subtitle mb-2 text-muted">Real World Treasure Hunt</h6>
-																		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-																		<div class="card-spacing">
-																				<br><br><br>
-																		</div>
-																		<a class="card-link" data-toggle="modal" data-target="#technohuntModal">More details</a>
-																		<a href="#" class="card-link">Register Now</a>
-																	</div>
-																</div> 
-
-															</div>
-														</div>
-												</div>
+									<!-- ---------
+									TECHNOHUNT
+									--------- -->
+									<div class="col-xs-6 text-center">
+										
+											<header> <br>
+													<span class="date font-weight-bold">03 Nov 2019</span>
+													<h2 class = "event-head">Technohunt</h2>
+											</header>
+											<br>
+												<!-- <a href="#" class="image fit"><img src="images/technohunt fhd.png" alt="" /></a> -->
 			
-												<p class="text-center"><br> Real World Treasure hunt event. <br> 
-												<label onclick="flip3()" class="rotate text-right">Click me</label></p>
-
-												<hr class="style14">
-	
-										</div>
-
-										<div class="col-xs-6 text-center ">
-												<header><br>
-														<span class="date font-weight-bold">02 Nov 2019</span>
-														<h2 class = "event-head">Web-O-design</h2>
-												</header>
-												<br>
-												<div class="flip-card  d-flex flex-column">
+											<div class="flip-card">
 													
-													<div class="flip-card-inner" id="flip_web">
+													<div class="flip-card-inner" id="flip_technohunt">
 														<div class="flip-card-front">
-														<img src="images/web-o-design fhd.png" alt="Avatar" >
+														<img src="images/technohunt fhd.png" alt="Avatar" >
 														</div>
 														<div class="flip-card-back">
-
-															
 															<!-- <h4>Welcome</h4>
 															<p>Breif info about the event</p>
-															<p>button to register using g form</p>
-															
-																<button type="button" class="btn btn-primary align-self-end" data-toggle="modal" data-target="#exampleModalCenter">
-																	Launch demo modal
-															</button> -->
-															
-
-														
-																	<div class="card h-100" style=" height: 18rem;" >
-																			<div class="card-body card-body flex-fil">
-																			  <h5 class="card-title">Welcome</h5>
-																			  <h6 class="card-subtitle mb-2 text-muted">Front End Web Dev Competition</h6>
-																			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-																			  <div class="card-spacing">
-																					<br><br><br>
-																				</div> 
-																			  <a  class="card-link" data-toggle="modal" data-target="#webodesignModal">More details</a>
-																			  <a  class="card-link">Register Now</a>
-																			</div>
-																		  </div> 	
-															
+															<p>button to register using g form</p> -->
 
 
-														
+															<div class="card h-100" style=" height: 18rem;" >
+																<div class="card-body card-body flex-fil">
+																	<h5 class="card-title">Welcome</h5>
+																	<h6 class="card-subtitle mb-2 text-muted">Real World Treasure Hunt</h6>
+																	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+																	<div class="card-spacing">
+																			<br><br><br>
+																	</div>
+																	<a class="card-link" data-toggle="modal" data-target="#technohuntModal">More details</a>
+																	<a href="#" class="card-link">Register Now</a>
+																</div>
+															</div> 
+
 														</div>
 													</div>
-												</div>
-												<p class="text-center"><br> Front End Web Dev Competition. <br>
-												<label onclick="flip4()" class="rotate text-right">Click me</label></p>
+											</div>
+		
+											<p class="text-center"><br> Real World Treasure hunt event. <br> 
+											<label onclick="flip3()" class="rotate text-right">Click me</label></p>
 
-									
-										</div>
+											<hr class="style14">
+
 									</div>
+
+									<!-- ---------
+									WEB-O-DESIGN
+									--------- -->
+									<div class="col-xs-6 text-center ">
+											<header><br>
+													<span class="date font-weight-bold">02 Nov 2019</span>
+													<h2 class = "event-head">Web-O-design</h2>
+											</header>
+											<br>
+											<div class="flip-card  d-flex flex-column">
+												
+												<div class="flip-card-inner" id="flip_web">
+													<div class="flip-card-front">
+													<img src="images/web-o-design fhd.png" alt="Avatar" >
+													</div>
+													<div class="flip-card-back">
+
+														
+														<!-- <h4>Welcome</h4>
+														<p>Breif info about the event</p>
+														<p>button to register using g form</p>
+														
+															<button type="button" class="btn btn-primary align-self-end" data-toggle="modal" data-target="#exampleModalCenter">
+																Launch demo modal
+														</button> -->
+														
+
+													
+																<div class="card h-100" style=" height: 18rem;" >
+																		<div class="card-body card-body flex-fil">
+																			<h5 class="card-title">Welcome</h5>
+																			<h6 class="card-subtitle mb-2 text-muted">Front End Web Dev Competition</h6>
+																			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+																			<div class="card-spacing">
+																				<br><br><br>
+																			</div> 
+																			<a  class="card-link" data-toggle="modal" data-target="#webodesignModal">More details</a>
+																			<a  class="card-link">Register Now</a>
+																		</div>
+																		</div> 	
+														
+
+
+													
+													</div>
+												</div>
+											</div>
+											<p class="text-center"><br> Front End Web Dev Competition. <br>
+											<label onclick="flip4()" class="rotate text-right">Click me</label></p>
+
+								
+									</div>
+								</div>
 
 							</div>
 
 
-
-							
-
-						
 
 						<!-- Footer -->
 							<footer>
@@ -455,85 +457,90 @@
 
 
 				<!-- Modal -->
+
 				<div class="modal fade" id="codenovusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Codenovus</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						<div class="modal-body">
+						...
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+				<div class="modal fade" id="consiliumModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Consilium</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						<div class="modal-body">
+						...
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+				<div class="modal fade" id="technohuntModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Technohunt</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+						<div class="modal-body">
+						...
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+
+				<div class="modal fade" id="webodesignModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLongTitle">Codenovus</h5>
+							<h5 class="modal-title" id="exampleModalLongTitle">Web-O-design</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 							</div>
 							<div class="modal-body">
-							...
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit fugit quo quisquam. Eaque voluptatibus, eum reiciendis cumque reprehenderit blanditiis pariatur ad, mollitia, est laborum at rem sit ipsa rerum! <br>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, debitis. Nihil ipsam corporis molestiae, debitis facilis voluptas ullam. Amet, impedit eius fugit corporis officiis magnam ut nam qui unde enim! <br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius assumenda quisquam, tempora ipsum quasi debitis ipsa praesentium neque quidem tenetur aliquam possimus impedit repellendus libero dignissimos adipisci, rem doloribus. <br>
+							
+						
 							</div>
 							<div class="modal-footer">
 							<button type="button" class="btn btn-primary">Register Now</button>
 							</div>
 						</div>
 						</div>
-					</div>
-
-
-					<div class="modal fade" id="consiliumModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-						<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLongTitle">Consilium</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-							</div>
-							<div class="modal-body">
-							...
-							</div>
-							<div class="modal-footer">
-							<button type="button" class="btn btn-primary">Register Now</button>
-							</div>
-						</div>
-						</div>
-					</div>
-
-
-						<div class="modal fade" id="technohuntModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-							<div class="modal-dialog modal-dialog-centered" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Technohunt</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-								</div>
-								<div class="modal-body">
-								...
-								</div>
-								<div class="modal-footer">
-								<button type="button" class="btn btn-primary">Register Now</button>
-								</div>
-							</div>
-							</div>
-						</div>
-
-
-
-						<div class="modal fade" id="webodesignModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">Web-O-design</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									</div>
-									<div class="modal-body">
-									...
-									</div>
-									<div class="modal-footer">
-									<button type="button" class="btn btn-primary">Register Now</button>
-									</div>
-								</div>
-								</div>
-							</div>
+				</div>
 				
 
 		<!-- Scripts -->
